@@ -20,7 +20,7 @@ request.setValue("YOUR_API_KEY", forHTTPHeaderField: "X-Api-Key")
 
 # Images
 <p float="left">
-<img width="200" alt="image" src="https://user-images.githubusercontent.com/73110402/205076035-15cd0566-da0a-492e-b1a5-c98ac4b1510f.png">
+<img width="180" alt="image" src="https://user-images.githubusercontent.com/73110402/205076035-15cd0566-da0a-492e-b1a5-c98ac4b1510f.png">
 <img width="200" alt="image" src="https://user-images.githubusercontent.com/73110402/205076466-9388e7b7-21c2-421a-afb8-3723911be512.png">
 <img width="200" alt="image" src="https://user-images.githubusercontent.com/73110402/205076543-4b46f38c-3d4b-4f43-8fdd-fc58ebdeace5.png">
 
