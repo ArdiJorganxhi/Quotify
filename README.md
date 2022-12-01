@@ -2,7 +2,7 @@
 
 Quotify. is an iOS application that generates random quotes from different categories. It shows you a quote from a category you have chosen and you can generate new ones with "Quote it" button.
 
-Firstly, when application opens, user is presented with an onboarding view showing name of the project and a Get Started slider. 
+Firstly, when application opens, an onboarding view is shown that is showing name of the project and a Get Started slider. 
 After onboarding view, categories are listed to user for generating quotes, user will choose a category and a quote will show up randomly.
 
 Quotes are generated from https://api.api-ninjas.com/v1/quotes?category={your-category} and it is fetched using URLSession. After fetch, using JSONDecoder, it is decoded to format of Quotes model and stored in an array of Quotes format.
