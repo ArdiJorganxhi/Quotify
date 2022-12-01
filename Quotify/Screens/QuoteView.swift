@@ -25,7 +25,7 @@ struct QuoteView: View {
         let url = URL(string: "https://api.api-ninjas.com/v1/quotes?category="+category!)!
         var request = URLRequest(url: url)
         
-        request.setValue("v5lql/9uiqKFvPz/Tt0dPg==J3jgKpzLK7twInOO", forHTTPHeaderField: "X-Api-Key")
+        request.setValue("YOUR_API_KEY", forHTTPHeaderField: "X-Api-Key")
         
         let task = URLSession.shared.dataTask(with: request) {(data, res, err) in
             
