@@ -14,8 +14,9 @@ This project aimed to make a fetch request to an API using URLSession and decodi
 # IMPORTANT NOTE
 
 If you clone this project, you must change "YOUR_API_KEY" part with the api key you get from api-ninjas in order to work properly.
-
+```
 request.setValue("YOUR_API_KEY", forHTTPHeaderField: "X-Api-Key")
+```
 
 
 # Images
