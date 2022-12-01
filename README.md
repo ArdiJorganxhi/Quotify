@@ -11,6 +11,12 @@ After fetch, using List, quote and author are shown to user, if user wants to ge
 
 This project aimed to make a fetch request to an API using URLSession and decoding a JSON using JSONDecoder. 
 
+# IMPORTANT NOTE
+
+If you clone this project, you must change "YOUR_API_KEY" part with the api key you get from api-ninjas in order to work properly.
+
+request.setValue("YOUR_API_KEY", forHTTPHeaderField: "X-Api-Key")
+
 
 # Images
 <p float="left">
